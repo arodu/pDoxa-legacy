@@ -1,0 +1,14 @@
+msgid "Unidad Curricular"
+msgstr "Unidad Curricular"
+
+msgid "Sección"
+msgstr "Estudiantes"
+
+msgid "Docente"
+msgstr "Jurados"
+
+msgid "Cupos"
+msgstr "Numeral"
+
+msgid "Cupo"
+msgstr "No."

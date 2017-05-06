@@ -1,0 +1,31 @@
+body{font-size:10pt!important;font-family:Arial;background:#FFF !important;}
+h1,h2,h3,h4,h5{font-weight:700!important;font-size:10pt;margin:1pt 4pt;}
+h1{font-size:1.2em;text-align:center;}
+
+thead {display: table-header-group;}
+
+#header{margin:12pt;}
+#header #logo{float:left;}
+#header #texto{float:left;margin-left:15pt;}
+hr{clear:both;margin:12pt;}
+#layout{position:inherit!important;}
+#layout #content{position:inherit!important;padding:0 2px 1px 1px;}
+.docente{visibility:visible;}
+#layout table{border-collapse:collapse;}
+#layout table thead tr td{border-bottom:1pt #888 solid;}
+#layout table tbody tr td,#layout table thead tr th{font-size:10pt;border:1pt #888 solid;}
+#layout table tr td{padding-left:4pt;margin-left:4pt;}
+div.encuentros{vertical-align:bottom;}
+#footer{border:1px red solid;clear:both;}
+#footer p{text-align:center;font-size:smaller;margin:0;}
+div{visibility:visible;display:inherit;}
+.no-print{display:none!important;}
+.no-print-v{visibility:hidden!important;}
+.ui-state-error{visibility:hidden!important; font-size:.7emimportant;}
+/*.ui-state-error{visibility:hidden!important; font-size:.7emimportant;}*/
+.ui-tabs-panel{display:block!important;}
+.bloque-libre{background:#888;}
+#layout table tr th,.secciones{text-align:center;}
+.secciones div,.acciones,table tr td div{display:block;}
+.seccion-asignada{border: 3pt;}
+

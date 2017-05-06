@@ -1,0 +1,150 @@
+body{border: 0 none !important; font-family:"Lucida Grande","Lucida Sans",Arial,sans-serif;font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-family:"Lucida Grande","Lucida Sans",Arial,sans-serif;font-weight:400;}
+h1{font-size:1.7em;}
+h2{font-size:1.5em;}
+h3{font-weight:700;font-size:1.2em;}
+p,ol,ul{line-height:100%;}
+
+.link{text-decoration:underline !important;}
+.link:hover{text-decoration:none !important; cursor: pointer;}
+
+#content a,#footer a{font-weight:700;text-decoration:none;}
+#encabezado{height:40px;position:fixed;top:0;left:6px;right:6px;}
+#cargador{font-weight:700;position:absolute;left:300px;bottom:0;}
+
+#logo{width:230px;max-width:230px;height:40px;position:absolute;left:10px;}
+#logo #imagen img{margin-top:4px;width:26px;height:28px;float:left;}
+#logo #texto{float:left;max-width:191px;margin-left:4px;}
+#logo h1{font-size:1.7em;font-weight:700;display:inline;margin:0;}
+#logo #texto h1 span{font-size:.5em;margin:0;}
+#logo h2{font-size:9px;margin:0;}
+
+#mainmenu{position:absolute;right:10px;padding:6px 0 0;}
+
+/*#layout{position:fixed;top:40px;left:6px;right:6px;bottom:18px;clear:both;}*/
+#layout{
+    position:absolute;
+        top:40px; right:6px; left:6px; bottom: 18px;
+    clear:both;
+}
+
+/**/#layout #left{width:240px;position:absolute;top:0;left:0;bottom:4px;}/**/
+/*#layout #left{
+    height: 100%;
+    width: 240px;
+    float:left;
+    /*border: 1px red dotted;
+}*/
+/**/#layout #bordeBoton{
+    width:2px;
+    z-index: 100;
+    cursor: ew-resize;
+    position:absolute;
+        top:0;bottom:0;left:240px;
+}
+
+/**/#layout #content{overflow:auto;position:absolute;top:0;left:242px;right:0;bottom:2px;padding:0 2px 1px 1px;}/**/
+/*#layout #content{
+    clear:both;
+    height:100%;
+}*/
+
+
+
+.resizable-helper {
+    border: 1px dotted;
+}
+
+/*#layout.cut #content{position:absolute;top:0;left:0;right:0;bottom:2px;padding:0 2px 1px 1px;}*/
+.no-screen{display:none;}
+
+#layout #left .ui-accordion .ui-accordion-content{border-top:0;overflow:auto;padding:.5em;}
+#content #overhorario{height:85%;overflow:auto;}
+
+
+table{border-right:0;clear:both;width:100%;}
+th{border:0;border-bottom:2px solid #555;text-align:left;padding:4px;}
+table tr td{text-align:left;vertical-align:top;border-bottom:1px solid;padding:6px;}
+td.acciones{text-align:center;white-space:nowrap;}
+
+th.dias,td.dias{width:100px;}
+th.horanum,td.horanum{vertical-align:middle;}
+
+#footer{clear:both;height:14px;position:fixed;left:10px;right:10px;bottom:0;}
+#footer p{text-align:center;font-size:smaller;margin:0;}
+
+dl{line-height:2em;width:70%;margin:0 0 1em;}
+dt{font-weight:700;padding-left:4px;padding-right:4px;vertical-align:top;width:11em;}
+dd{margin-left:12em;margin-top:-2em;vertical-align:top;}
+
+form{clear:both;margin-right:20px;width:100%;padding:0;}
+
+form>div{clear:both;margin-bottom:1em;vertical-align:text-top;padding:.5em;}
+
+form table div{clear:both;margin-bottom:0;vertical-align:text-top;padding:0;}
+form table td{text-align:center;}
+form .input{display:block;width:95%;}
+form .input label{display:block;}
+form .required{font-weight:700;}
+form .required label:after{color:#e32;content:' *';display:inline;}
+form .input input,form .input select{min-width:100px;}
+form div.submit{border:0;clear:both;}
+form .input input,form .input .error-message,form .checkbox label,form .radio label,label{display:inline;}
+form .input .error-message{margin-left: 6em;}
+form span.coment{font-size: .8em; font-weight: normal;}
+
+hr{border:solid 1px #555;}
+
+.mtr-libre,.mtr-ocupado{min-width:170px;cursor:pointer;z-index:100;}
+
+.mtr-libre,.mtr-ocupado,.mtr-bloqueado{
+    font-size: .8em;
+    margin-bottom:6px;
+    padding:3px;
+}
+
+.hora{font-size:10px;}
+.bloque-ocupado{min-width:120px;cursor:pointer;z-index:100;}
+.info div{margin-bottom:.3em;width:95%;}
+.centrarh400{position:absolute;left:50%;margin-left:-200px;}
+.icono-linea{display: inline-block;}
+#alerta{max-width:40%;}
+
+.acciones .ui-widget .ui-button-text,.abrir-formulario .ui-widget .ui-button-text,.paginas .ui-widget .ui-button-text,.boton .ui-widget .ui-button-text{font-size:.8em;padding:.3em .5em;}
+#mainmenu .ui-widget .ui-button-text{font-size:.9em;padding:.3em .5em;}
+
+fieldset.multipleBox{width: 50%;}
+fieldset.multipleBox .ck{margin-left: 2em;}
+
+form .chosen-container .group-result, form .chosen-container .chosen-results{
+    max-height: 7em !important;
+}
+
+form .chosen-container .chosen-drop{
+    max-height: 8em !important;
+}
+
+.search-choice{
+    font-size: .9em;
+    font-weight: normal;
+}
+
+#left .leftSelect{
+    display:block;
+    margin-bottom: .5em;
+}
+
+#left .leftSelect .input{
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+
+#left .leftSelect select{
+    width:98%;
+}
+
+.submit, .otherSubmit{
+    display: inline-block;
+}
