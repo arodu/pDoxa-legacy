@@ -13,7 +13,9 @@ Sistema Gestión de Horarios Academicos, [AIS UNERG](http://ais.unerg.edu.ve)
 
 * Restarurar archivo de base de datos 'sql/pdoxa.sql'
 * Copiar archivo de configuracion de base de datos
-		cp app/Config/database.php.default app/Config/database.php
+	```
+	cp app/Config/database.php.default app/Config/database.php
+	```
 
 * Modificar archivo de configuracion de base de datos `app/Config/database.php` con los accesos correspondientes
 * Usuario `admin`, clave `1234`
