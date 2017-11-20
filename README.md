@@ -2,6 +2,13 @@
 
 Sistema Gestión de Horarios Academicos, [AIS UNERG](http://ais.unerg.edu.ve)
 
+## Demo
+
+https://pdoxa.000webhostapp.com
+```
+usuario: demo
+contraseña: demo
+```
 
 ## Requisitos
 
