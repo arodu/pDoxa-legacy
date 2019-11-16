@@ -1,10 +1,8 @@
 # pDoxa
-
 Sistema Gestión de Horarios Academicos, [AIS UNERG](http://ais.unerg.edu.ve)
 
 ## Demo
-
-https://pdoxa.000webhostapp.com
+http://arodu.web.ve/demo/pdoxa/
 ```
 usuario: demo
 contraseña: demo
